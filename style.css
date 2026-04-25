@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'star';
+    src: url('fonts/MUNMAK_BYEOLBANCHE.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sun';
+    src:url('fonts/MUNMAK_HAEBANCHE.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: darkseagreen;
+    padding: 50px 50px;
+}
+
+.main-container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: ghostwhite;
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: flex-start;
+}
+
+.my-photo img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.my-photo{
+    outline: darkseagreen solid 2px;
+}
+
+.my-name{
+    font-family: 'sun';
+    color: darkolivegreen;
+    margin-right: 80px;
+}
