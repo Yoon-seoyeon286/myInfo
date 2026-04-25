@@ -43,8 +43,39 @@ body{
     outline: darkseagreen solid 2px;
 }
 
+.my-information-box{
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+}
+
 .my-name{
+    font-family: 'star';
+    color: darkolivegreen;
+    font-size: 35px;
+}
+
+.my-birth{
     font-family: 'sun';
     color: darkolivegreen;
-    margin-right: 80px;
+    font-size: 20px;
+}
+
+.my-email{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.my-job{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.my-story{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 15px;
+    line-height: 30px;
 }
