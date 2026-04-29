@@ -22,6 +22,7 @@ body{
     width: 100%;
     min-height: 100vh;
     background: ghostwhite;
+    flex-direction: column;
 }
 
 .header-container{
@@ -78,4 +79,40 @@ body{
     color: darkolivegreen;
     font-size: 15px;
     line-height: 30px;
+}
+
+
+/*경력칸*/
+
+.career-container{
+    display: flex;
+    padding: 50px 100px;
+}
+
+.career-box{
+    width: 100%;
+    height: 50px;
+    color: darkolivegreen;
+    border-bottom: 2px solid darkolivegreen;
+}
+
+.first-career-btn{
+    font-family: 'star';
+    background-color: snow;
+
+    color: darkolivegreen;
+    border-radius: 50%;
+    font-size: 20px;
+
+    padding : 10px 10px;
+    border: 2px solid darkolivegreen;
+
+}
+
+.first-career-btn:hover{
+    filter: brightness(1.5);
+}
+
+.first-career-btn:active{
+    filter: brightness(0.5);
 }
