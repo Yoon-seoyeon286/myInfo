@@ -29,7 +29,8 @@ body{
     display: flex;
     width: 100%;
     min-height: 200px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 200px;
     padding-top: 50px;
     align-items: flex-start;
 }
@@ -75,7 +76,7 @@ body{
 }
 
 .my-story{
-    font-family: 'sun';
+    font-family: 'star';
     color: darkolivegreen;
     font-size: 15px;
     line-height: 30px;
@@ -86,15 +87,21 @@ body{
 
 .career-container{
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 300px;
+
 }
 
-.career-box{
+.career-box {
     width: 100%;
     height: 50px;
     color: darkolivegreen;
     border-bottom: 2px solid darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
 }
+
 
 .first-career-btn{
     font-family: 'star';
@@ -127,7 +134,6 @@ body{
     padding : 10px 10px;
     border: 2px solid darkolivegreen;
 
-    margin-left: 200px;
 }
 
 .second-career-btn:hover{
@@ -146,7 +152,7 @@ body{
     font-size: 20px;
     padding : 10px 10px;
     border: 2px solid darkolivegreen;
-    margin-left: 200px;
+
 }
 
 .third-career-btn:hover{
@@ -165,7 +171,7 @@ body{
     font-size: 20px;
     padding : 10px 10px;
     border: 2px solid darkolivegreen;
-    margin-left: 200px;
+
 }
 
 .fourth-career-btn:hover{
@@ -177,14 +183,20 @@ body{
 }
 
 
+.career-btn-wrapper {
+    position: relative;
+}
+
+
+
 /*첫번째 직업 칸*/
 
 .first-career-container{
 
     display: none;
     position: absolute;
-    top: 400px;
-    left:300px;
+    top: 50px;
+    left: 0px;
     background-color: snow;
     border: 1px solid darkolivegreen;
     border-radius: 10px;
@@ -229,8 +241,8 @@ body{
 
     display: none;
     position: absolute;
-    top: 400px;
-    left:550px;
+    top: 50px;
+    left:0px;
     background-color: snow;
     border: 1px solid darkolivegreen;
     border-radius: 10px;
@@ -273,8 +285,8 @@ body{
 .third-career-container{
     display: none;
     position: absolute;
-    top: 400px;
-    left:800px;
+    top: 50px;
+    left:0px;
     background-color: snow;
     border: 1px solid darkolivegreen;
     border-radius: 10px;
@@ -318,8 +330,8 @@ body{
 
     display: none;
     position: absolute;
-    top: 400px;
-    left:550px;
+    top: 50px;
+    left:0px;
     background-color: snow;
     border: 1px solid darkolivegreen;
     border-radius: 10px;
@@ -356,6 +368,13 @@ body{
     font-size: 20px;
 }
 
+/*두번째 섹션*/
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 /*학력 라인*/
 
@@ -370,6 +389,7 @@ body{
     width: 350px;
     height: 150px;
     border: 2px solid darkolivegreen;
+    background-color: darkolivegreen;
     border-radius: 10px;
 
     margin-left: 100px;
@@ -380,20 +400,85 @@ body{
 
 .middle-school{
     font-family: 'star';
-    color: darkolivegreen;
+    color: snow;
 }
 
 .university{
     font-family: 'star';
-    color: darkolivegreen;
+    color: snow;
 }
 
 .video-class{
     font-family: 'star';
-    color: darkolivegreen;
+    color: snow;
 }
 
 .polytech{
     font-family: 'star';
-    color: darkolivegreen;
+    color: snow;
+}
+
+
+/*포폴 라인*/
+
+.portfolio-title{
+    font-family: 'star';
+    color: darkslategray;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-left: 100px;
+}
+
+.portfolio-box{
+    width: 350px;
+    height: 150px;
+    border: 2px solid darkslategray;
+    background-color: darkslategray;
+    border-radius: 10px;
+    margin-left: 100px;
+    MARGIN-TOP: 20px;
+    padding: 20px;
+}
+
+.my-video{
+    font-family: 'star';
+    color: snow;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.my-video:hover{
+    text-decoration: underline;
+}
+
+.my-video-second{
+    font-family: 'star';
+    color: snow;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.my-video-second:hover{
+    text-decoration: underline;
+}
+
+.my-video-third{
+    font-family: 'star';
+    color: snow;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.my-video-third:hover{
+    text-decoration: underline;
+}
+
+.my-video-fourth{
+    font-family: 'star';
+    color: snow;
+    font-size: 15px;
+    text-decoration: none;
+}
+.my-video-fourth:hover{
+    text-decoration: underline;
 }
