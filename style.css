@@ -106,7 +106,6 @@ body{
 
     padding : 10px 10px;
     border: 2px solid darkolivegreen;
-
 }
 
 .first-career-btn:hover{
@@ -115,4 +114,286 @@ body{
 
 .first-career-btn:active{
     filter: brightness(0.5);
+}
+
+.second-career-btn{
+    font-family: 'star';
+    background-color: snow;
+
+    color: darkolivegreen;
+    border-radius: 50%;
+    font-size: 20px;
+
+    padding : 10px 10px;
+    border: 2px solid darkolivegreen;
+
+    margin-left: 200px;
+}
+
+.second-career-btn:hover{
+    filter: brightness(1.5);
+}
+
+.second-career-btn:active{
+    filter: brightness(0.5);
+}
+
+.third-career-btn{
+    font-family: 'star';
+    background-color: snow;
+    color: darkolivegreen;
+    border-radius: 50%;
+    font-size: 20px;
+    padding : 10px 10px;
+    border: 2px solid darkolivegreen;
+    margin-left: 200px;
+}
+
+.third-career-btn:hover{
+    filter: brightness(1.5);
+}
+
+.third-career-btn:active{
+    filter: brightness(0.5);
+}
+
+.fourth-career-btn{
+    font-family: 'star';
+    background-color: snow;
+    color: darkolivegreen;
+    border-radius: 50%;
+    font-size: 20px;
+    padding : 10px 10px;
+    border: 2px solid darkolivegreen;
+    margin-left: 200px;
+}
+
+.fourth-career-btn:hover{
+    filter: brightness(1.5);
+}
+
+.fourth-career-btn:active{
+    filter: brightness(0.5);
+}
+
+
+/*첫번째 직업 칸*/
+
+.first-career-container{
+
+    display: none;
+    position: absolute;
+    top: 400px;
+    left:300px;
+    background-color: snow;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    z-index: 10;
+}
+
+
+.first-career-container.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-career-name{
+    font-family: 'star';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.first-career-what{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.first-career-how{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.first-career-much{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+/*두번째 직업 칸*/
+
+.second-career-container{
+
+    display: none;
+    position: absolute;
+    top: 400px;
+    left:550px;
+    background-color: snow;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    z-index: 10;
+}
+
+.second-career-container.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-career-name{
+    font-family: 'star';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.second-career-what{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.second-career-how{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.second-career-much{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+/*세번째 경력칸*/
+
+.third-career-container{
+    display: none;
+    position: absolute;
+    top: 400px;
+    left:800px;
+    background-color: snow;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    z-index: 10;
+}
+
+.third-career-container.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.third-career-name{
+    font-family: 'star';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.third-career-what{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.third-career-how{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.third-career-much{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+/*네번째 직업칸*/
+
+.fourth-career-container{
+
+    display: none;
+    position: absolute;
+    top: 400px;
+    left:550px;
+    background-color: snow;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    z-index: 10;
+}
+
+.fourth-career-container.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-career-name{
+    font-family: 'star';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.fourth-career-what{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.fourth-career-how{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+.fourth-career-much{
+    font-family: 'sun';
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+
+/*학력 라인*/
+
+.education-title{
+    font-family: 'star';
+    color: darkolivegreen;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.education-box{
+    width: 350px;
+    height: 150px;
+    border: 2px solid darkolivegreen;
+    border-radius: 10px;
+
+    margin-left: 100px;
+    MARGIN-TOP: 20px;
+
+    padding: 20px;
+}
+
+.middle-school{
+    font-family: 'star';
+    color: darkolivegreen;
+}
+
+.university{
+    font-family: 'star';
+    color: darkolivegreen;
+}
+
+.video-class{
+    font-family: 'star';
+    color: darkolivegreen;
+}
+
+.polytech{
+    font-family: 'star';
+    color: darkolivegreen;
 }
